@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<p id="copyright" >©Copyright 2020. all right received by Sumit Das.</p>
+		
+	<form class="calculator" name="calc" action="#"  >
+		<input class="value"  type="text" name="text" readonly="readonly"  />
+		<span class="clear"  onclick="document.calc.text.value =''" >CE</span>
+		<span class="devi"  onclick="document.calc.text.value +='/'" >÷</span>
+		<span class="multi"  onclick="document.calc.text.value +='*'" >×</span>
+		<span onclick="document.calc.text.value +='7'" >7</span>
+		<span onclick="document.calc.text.value +='8'" >8</span>
+		<span onclick="document.calc.text.value +='9'" >9</span>
+		<span class="minas"  onclick="document.calc.text.value +='-'" >-</span>
+		<span onclick="document.calc.text.value +='4'" >4</span>
+		<span onclick="document.calc.text.value +='5'" >5</span>
+		<span onclick="document.calc.text.value +='6'" >6</span>
+		<span class="plus"  onclick="document.calc.text.value +='+'" >+</span>
+		<span onclick="document.calc.text.value +='1'" >1</span>
+		<span onclick="document.calc.text.value +='2'" >2</span>
+		<span onclick="document.calc.text.value +='3'" >3</span>
+		<span onclick="document.calc.text.value +='0'" >0</span>
+		<span onclick="document.calc.text.value +='00'" >00</span>
+		<span onclick="document.calc.text.value +='.'" >.</span>
+		<span class="equal"  onclick="document.calc.text.value =eval(calc.text.value)" >=</span>
+	</form>
+</body>
+</html>
